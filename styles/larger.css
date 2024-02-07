@@ -16,4 +16,19 @@
     nav ul li {
         flex: 1 1 100%;
     }
+
+    /* week 3 addition */
+    /* hides the menu button when the screen is 600px */
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        flex-direction: row;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
 }
