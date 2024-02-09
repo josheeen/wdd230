@@ -18,7 +18,7 @@
 
 <body>
     <header>
-        <img src="images/profile.jpg" alt="my photo" width="75" height="100">
+        <img src="images/profile.webp" alt="my photo" width="75" height="100">
         <span>Joshua Reyes</span>
     </header>
     <nav>
@@ -31,14 +31,23 @@
         </ul>
     </nav>
     <main>
+        <div class="hero">
+            <picture>
+                <source media="(max-width:400px)" srcset="images/hero-small.webp">
+                <img src="images/hero-large.webp" alt="Manila Temple" width="799" height="500">
+            </picture>
+            <div class="herolabel">
+                <p>Manila Temple</p>
+            </div>
+        </div>
         <h1>WDD 230: Web Frontend Development</h1>
         <div class="main-column">
             <section class="card">
                 <h2>Learning Activities</h2>
                 <ul>
-                    <li><a href=""></a>Lesson 1</li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <li><a href="">Week 1</a></li>
+                    <li><a href="">Week 2</a></li>
+                    <li><a href="">Week 3</a>: <a href="week03/lazyload.html">Lazyload</a></li>
                     <li><a href=""></a></li>
                     <li><a href=""></a></li>
                     <li><a href=""></a></li>
@@ -48,7 +57,14 @@
             <section class="card">
                 <h2>Information</h2>
                 <p>Weather and Info</p>
+                <h5 class="Information">Page Visits:<span id="visitCount">1</span></h5>
             </section>
+        </div>
+        <div>
+            <iframe id="maps"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3856.5700927992893!2d120.3232573752006!3d14.849366970937576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396703e79e63b29%3A0xa647e80267d63d99!2sThe%20Dove%20Monument%20(Kalapati)!5e0!3m2!1sen!2sph!4v1707366586235!5m2!1sen!2sph"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </main>
     <footer>
@@ -57,7 +73,7 @@
     </footer>
 
     <script src="scripts/getDates.js"></script>
-    
+
 </body>
 
 </html>
