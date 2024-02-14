@@ -1,0 +1,49 @@
+{
+    "lessons": [
+        {
+            "lesson": "01",
+            "links": [
+                {
+                    "url": "lesson02/design-principles.html",
+                    "title": "Design Principles Document"
+                }
+            ]
+        },
+        {
+            "lesson": "03",
+            "links": [
+                {
+                    "url": "week03/lazyload.html",
+                    "title": "Lazyload"
+                }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links": [
+                {
+                    "url": "https://codepen.io/Joshua-Reyes/pen/mdaQpxM",
+                    "title": "CSS Pseudo-classes"
+                }
+            ]
+        },
+        {
+            "lesson": "05",
+            "links": [
+                {
+                    "url": "https://josheeen.github.io/wdd230/lesson05/bom.html",
+                    "title": "Book of Mormon Chapters"
+                }
+            ]
+        },
+        {
+            "lesson": "06",
+            "links": [
+                {
+                    "url": "https://codepen.io/blazzard-jason/pen/NWMeOQE",
+                    "title": "Absolute Position - Temple Hero Activity"
+                }
+            ]
+        }
+    ]
+}

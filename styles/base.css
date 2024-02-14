@@ -235,3 +235,8 @@ main {
     height: 250px;
     border: 2px;
 }
+
+/* to remove the small dots in ul list of learning activities */
+main section ul {
+    list-style-type: none;
+}

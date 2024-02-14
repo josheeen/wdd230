@@ -45,19 +45,35 @@
             <section class="card">
                 <h2>Learning Activities</h2>
                 <ul>
-                    <li><a href="">Week 1</a></li>
+                    <!-- <li><a href="">Week 1</a></li>
                     <li><a href="">Week 2</a></li>
                     <li><a href="">Week 3</a>: <a href="week03/lazyload.html">Lazyload</a></li>
                     <li><a href=""></a></li>
                     <li><a href=""></a></li>
                     <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <li><a href=""></a></li> -->
+                    <ul id="course-list"></ul>
                 </ul>
             </section>
             <section class="card">
                 <h2>Information</h2>
-                <p>Weather and Info</p>
+
                 <h5 class="Information">Page Visits:<span id="visitCount">1</span></h5>
+                <div class="home-weather">
+                    <img src="#" id="weather-picture" alt="Weather image">
+                    <div class="home-weather-section1">
+                        <p><span id="temperature"></span>°C</p>
+                        <p><span id="weather-description"></span></p>
+                    </div>
+                    <div class="home-weather-section2">
+                        <p>Wind Speed:</p>
+                        <p>Wind Chill:</p>
+                    </div>
+                    <div class="home-weather-section3">
+                        <p><span id="windSpeed"></span> km/h</p>
+                        <p><span id="windChill"></span></p>
+                    </div>
+                </div>
             </section>
         </div>
         <div>
@@ -73,6 +89,9 @@
     </footer>
 
     <script src="scripts/getDates.js"></script>
+    <script type="module" src="scripts/weather.js"></script>
+    <script type="module" src="scripts/windchill.js"></script>
+    <script src="scripts/links.js"></script>
 
 </body>
 
