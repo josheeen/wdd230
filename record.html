@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Joshua Reyes] - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 Web Frontend Development - Joshua Reyes - course assignment portal" />
+    <meta name="author" content="Joshua Reyes" />
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <img src="images/profile.webp" alt="my photo" width="75" height="100">
+        <span>Joshua Reyes</span>
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="form.html">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h3>Thank you for your submission.✔ </h3>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span>| Joshua Reyes| Philippines</p>
+        <p id="lastModified">Last Modified: </p>
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
+    <script type="module" src="scripts/weather.js"></script>
+    <script type="module" src="scripts/windchill.js"></script>
+    <script src="scripts/links.js"></script>
+
+</body>
+
+</html>
