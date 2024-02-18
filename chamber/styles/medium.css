@@ -144,8 +144,9 @@
         grid-column: 1/4;
         grid-row: 6;
         display: grid;
-        grid-template-rows: repeat(2, 1fr);
     }
+
+
 
     /* WEATHER */
     .home-weather {

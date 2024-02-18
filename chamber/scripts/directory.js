@@ -54,19 +54,6 @@ let listView = function () {
     document.querySelector(".cards").classList.remove("cardV");
 };
 
-//Footer
-document.querySelector(
-    "#lastModified"
-).textContent = `Last Modification: ${document.lastModified}`;
-
-//Header
-const datefield = document.querySelector(".date");
-const now = new Date();
-const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
-    now
-);
-datefield.innerHTML = `<em>${fulldate}</em>`;
-
 //Humberger Menu
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("open");
@@ -75,12 +62,8 @@ function toggleMenu() {
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
 
-//Banner text display
-
-const named = document.getElementById("min-banner");
+/* TODAY'S DATE IN HEADER */
+const todayDateField = document.querySelector("#todaysDate");
 const date = new Date();
-const todaysdate = date.getDay();
-if (todaysdate == 1 || todaysdate == 2) {
-    let x = document.querySelector("#text");
-    x.innerHTML = `🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.`;
-}
+const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(date);
+todayDateField.innerHTML = fulldate;
