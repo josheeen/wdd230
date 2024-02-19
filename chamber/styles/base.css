@@ -673,3 +673,12 @@ form label.top input:required:valid {
 .membership-info ul {
     padding-left: 1rem;
 }
+
+/* for darkmode */
+#mode {
+    position: absolute;
+    top: 2rem;
+    right: 4.5rem;
+    font-size: 3rem;
+    cursor: pointer;
+}

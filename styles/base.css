@@ -240,3 +240,8 @@ main {
 main section ul {
     list-style-type: none;
 }
+
+#mode {
+    font-size: 2rem;
+    cursor: pointer;
+}
